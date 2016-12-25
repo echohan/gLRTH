@@ -1,3 +1,22 @@
+#' The Function for the Likelihood Ratio Test for Genome-Wide Association under Genetic Heterogeneity with long format of genotype and disease status data
+#'
+#' @return The test statistic and asymptotic p-value for the likelihood ratio test under genetic heterogeneity
+#' @param a n x 1 vector contains the number of minor allele (i.e., 0, 1 or 2) for a given SNP, where n is the number of observations.
+#' @param a n x 1 vector contains disease status, 1 is case and 0 is control, where n is the number of observations.
+#' @author Xiaoxia Han and Yongzhao Shao
+#' @references
+#' Qian M., Shao Y. (2013) A Likelihood Ratio Test for Genome-Wide Association under Genetic Heterogeneity.
+#' Annals of Human Genetics, 77(2): 174-182.
+#' @examples
+#' disease<-c(rep(1, 200), rep(0, 200))
+#' geno1<-c(rbinom(n=50, size=2, prob=0.5), rbinom(n=150, size=2, prob=0.23))
+#' geno2<-rbinom(n=200, size=2, prob=0.5)
+#' geno<-c(geno1, geno2)
+#' gLRTH2(g=geno, d=disease)
+#' @export
+#' @importFrom stats complete.cases pchisq
+
+
 gLRTH2<-function(g,d){
   data = data.frame(g = g, d = d)
   data = as.data.frame(data)
