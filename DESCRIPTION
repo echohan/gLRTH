@@ -1,6 +1,6 @@
 Package: gLRTH
 Type: Package
-Title: A Likelihood Ratio Test for Genome-Wide Association under Genetic
+Title: An R package for the Likelihood Ratio Test for Genome-Wide Association under Genetic
     Heterogeneity
 Version: 0.1.0
 Authors@R: as.person(c(
