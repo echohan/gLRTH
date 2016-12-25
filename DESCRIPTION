@@ -1,0 +1,20 @@
+Package: gLRTH
+Type: Package
+Title: A Likelihood Ratio Test for Genome-Wide Association under Genetic
+    Heterogeneity
+Version: 0.1.0
+Authors@R: as.person(c(
+    "Xiaoxia Han <echohan2005@gmail.com> [aut, cre]", 
+    "Yongzhao Shao <shaoy01@nyu.edu > [aut]"
+  ))
+Description: R functions for a likelihood ratio test for genome-wide association
+    under genetic heterogeneity.
+Depends:
+    R (>= 3.3.1)
+License: GPL-3
+LazyData: true
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
