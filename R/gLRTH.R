@@ -1,12 +1,12 @@
 #' The Function for the Likelihood Ratio Test for Genome-Wide Association under Genetic Heterogeneity with genotype frequencies as input values
 #'
 #' @return The test statistic and asymptotic p-value for the likelihood ratio test under genetic heterogeneity
-#' @param AA genotype frequency in case
-#' @param Aa genotype frequency in case
-#' @param aa genotype frequency in case
-#' @param AA genotype frequency in control
-#' @param Aa genotype frequency in control
-#' @param aa genotype frequency in control
+#' @param n0 AA genotype frequency in case
+#' @param n1 Aa genotype frequency in case
+#' @param n2 aa genotype frequency in case
+#' @param m0 AA genotype frequency in control
+#' @param m1 Aa genotype frequency in control
+#' @param m2 aa genotype frequency in control
 #' @author Xiaoxia Han and Yongzhao Shao
 #' @references
 #' Qian M., Shao Y. (2013) A Likelihood Ratio Test for Genome-Wide Association under Genetic Heterogeneity.
