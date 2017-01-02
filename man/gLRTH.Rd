@@ -29,9 +29,10 @@ The Function for the Likelihood Ratio Test for Genome-Wide Association under Gen
 gLRTH(n0=2940, n1=738, n2=53, m0=3601, m1=1173, m2=117)
 }
 \author{
-Xiaoxia Han
+Xiaoxia Han and Yongzhao Shao
 }
 \references{
-Qian, M., & Shao, Y. (2013). A Likelihood Ratio Test for Genome‐Wide Association under Genetic Heterogeneity. Annals of human genetics, 77(2), 174-182.
+Qian M., Shao Y. (2013) A Likelihood Ratio Test for Genome-Wide Association under Genetic Heterogeneity.
+Annals of Human Genetics, 77(2): 174-182.
 }
 
