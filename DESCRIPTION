@@ -3,12 +3,9 @@ Type: Package
 Title: An R package for the Likelihood Ratio Test for Genome-Wide Association under Genetic
     Heterogeneity
 Version: 0.1.0
-Authors@R: as.person(c(
-    "Xiaoxia Han <echohan2005@gmail.com> [aut, cre]", 
-    "Yongzhao Shao <shaoy01@nyu.edu > [aut]"
-  ))
+Authors@R: person("Xiaoxia", "Han", email = "xh414@nyu.edu", role = c("aut", "cre"))
 Description: R functions for a likelihood ratio test for genome-wide association
-    under genetic heterogeneity.
+    under genetic heterogeneity. 
 Depends:
     R (>= 3.3.1)
 License: GPL-3

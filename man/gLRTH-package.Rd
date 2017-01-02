@@ -9,7 +9,7 @@ Functions for the Likelihood Ratio Test for Genome-Wide Association under Geneti
 }
 
 \references{
-Qian, M., Shao, Y. (2013) A Likelihood Ratio Test for Genome-Wide Association under Genetic Heterogeneity
+Qian, M., & Shao, Y. (2013). A Likelihood Ratio Test for Genome-Wide Association under Genetic Heterogeneity. Annals of human genetics, 77(2), 174-182.
 }
 \author{
 Xiaoxia Han and Yongzhao Shao
